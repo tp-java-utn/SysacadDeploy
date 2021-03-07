@@ -1,0 +1,16 @@
+@charset "ISO-8859-1";
+
+div.table-responsive{
+      width: 1920px;
+      height: 1080px;
+      overflow: auto;
+    }
+	  table { border-collapse: collapse; width: 100%; }
+    th { background: white; padding: 8px 16px;  }
+    
+    .tableFixHead {
+      overflow: auto;
+    }
+    .tableFixHead thead th {
+      position: sticky;
+      top: 0;

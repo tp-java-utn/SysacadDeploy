@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+
+  
+    <!-- Errores 400 -->
+    <error-page>
+	    <error-code>400</error-code>
+	    <location>/Error/400.html</location>
+	</error-page>
+	<error-page>
+	    <error-code>401</error-code>
+	    <location>/Error/401.html</location>
+	</error-page>
+	<error-page>
+	    <error-code>403</error-code>
+	    <location>/Error/403.html</location>
+	</error-page>
+    <error-page>
+	    <error-code>404</error-code>
+	    <location>/Error/404.html</location>
+	</error-page>
+	<error-page>
+	    <error-code>408</error-code>
+	    <location>/Error/408.html</location>
+	</error-page>
+	
+	<!-- Errores 500 -->
+	<error-page>
+	    <error-code>500</error-code>
+	    <location>/Error/500.html</location>
+	</error-page>
+
+</web-app>
